@@ -1,0 +1,27 @@
+@import "../../../utils/scss-variables.scss";
+.headerWrap {
+  background-color: white;
+  padding: 12px 0;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $header-height;
+  width: 100%;
+}
+.headerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.linksList {
+  flex: 1;
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
+  align-items: center;
+  &.right-links {
+    justify-content: flex-end;
+  }
+}
