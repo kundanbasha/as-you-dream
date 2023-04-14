@@ -13,7 +13,7 @@ export default function Header() {
       <Container className={headerStyles.headerContainer}>
         <HamburgerMenu open={open} setOpen={setOpen} />
         <Menu open={open} setOpen={setOpen} />
-        <Link href="/">
+        <Link href="/" className={headerStyles["ayd-logo-link"]}>
           <Image
             alt="ayd logo"
             src={"/ayd-logo-4.jpeg"}
