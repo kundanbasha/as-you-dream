@@ -12,7 +12,6 @@ export default function Services() {
             className={servicesStyles["img-bg"]}
             style={{ backgroundImage: `url(${card.imageUrl})` }}
           />
-          {/* <img alt={card.title} src={card.imageUrl} /> */}
           <p>{card.description}</p>
         </div>
       ))}
