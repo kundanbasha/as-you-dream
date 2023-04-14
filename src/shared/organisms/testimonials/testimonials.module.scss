@@ -28,3 +28,14 @@
     color: $secondary-color;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .testimonials-wrap {
+    margin-top: 50%;
+  }
+  .testimonials-title-wrap {
+    h1 {
+      font-size: 24px;
+    }
+  }
+}

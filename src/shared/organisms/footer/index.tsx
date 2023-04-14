@@ -69,8 +69,10 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="w-full border border-gray-900 mt-5" />
-        <p className="text-sm mt-4">© 2023 As You Dream Private Limited</p>
+        <div />
+        <p className={footerStyles["copy-right"]}>
+          © 2023 As You Dream Private Limited
+        </p>
       </Container>
     </footer>
   );

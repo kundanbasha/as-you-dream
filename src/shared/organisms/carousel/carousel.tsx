@@ -1,5 +1,6 @@
 import { CSSProperties, ReactNode } from "react";
 import { Slide, Fade, Zoom } from "react-slideshow-image";
+import carouselStyles from "./carousel.module.scss";
 import "react-slideshow-image/dist/styles.css";
 
 const quoteStyle: CSSProperties = {
@@ -49,8 +50,16 @@ export default function Carousel({ type = "slide" }) {
     <div>
       <CarouselTag {...properties}>
         {slides.map((slide, index) => (
-          <div style={{ ...divStyle }} key={`item-${index}`}>
-            <p style={{ ...quoteStyle, display: "flex" }}>{slide.testimonal}</p>
+          <div
+            className={carouselStyles["testimonial-wrap"]}
+            key={`item-${index}`}
+          >
+            <p
+              className={carouselStyles["testimonial-content"]}
+              style={{ display: "flex" }}
+            >
+              {slide.testimonal}
+            </p>
           </div>
         ))}
       </CarouselTag>

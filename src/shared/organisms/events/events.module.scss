@@ -38,8 +38,18 @@
 }
 
 @media screen and (max-width: 480px) {
+  .events-container {
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 340px;
+  }
   .content-card {
     width: 100%;
+    top: 12%;
     height: fit-content;
+    h1 {
+      font-size: 32px;
+      line-height: 56px;
+    }
   }
 }

@@ -1,0 +1,21 @@
+.testimonial-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 400px;
+}
+.testimonial-content {
+  padding: 20px;
+  width: 36%;
+  font-size: 16px;
+  text-align: center;
+  color: white;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 480px) {
+  .testimonial-content {
+    width: 80%;
+  }
+}

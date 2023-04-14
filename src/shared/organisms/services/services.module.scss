@@ -36,3 +36,10 @@
   border-radius: 50%;
   background-size: cover;
 }
+
+@media screen and (max-width: 480px) {
+  .category-card {
+    width: 100%;
+    margin-bottom: 64px;
+  }
+}
