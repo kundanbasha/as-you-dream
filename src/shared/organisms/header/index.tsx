@@ -7,7 +7,15 @@ export default function Header() {
   return (
     <div className={headerStyles.headerWrap}>
       <Container className={headerStyles.headerContainer}>
-        <ul className={headerStyles.linksList}>
+        <div>
+          <Image
+            alt="ayd logo"
+            src={"/ayd-logo-4.jpeg"}
+            width={160}
+            height={100}
+          />
+        </div>
+        {/* <ul className={headerStyles.linksList}>
           <li>
             <Link href="/">Home</Link>
           </li>
@@ -17,20 +25,20 @@ export default function Header() {
           <li>
             <Link href="/events">Events</Link>
           </li>
-        </ul>
-        <div>
-          {
-            <Image
-              alt="ayd logo"
-              src={"/ayd-logo.jpeg"}
-              width={100}
-              height={72}
-            />
-          }
-        </div>
+        </ul> */}
+
         <ul
           className={`${headerStyles.linksList} ${headerStyles["right-links"]}`}
         >
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/services">Services</Link>
+          </li>
+          <li>
+            <Link href="/events">Events</Link>
+          </li>
           <li>
             <Link href="/about">About Us</Link>
           </li>

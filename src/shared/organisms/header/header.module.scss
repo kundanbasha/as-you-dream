@@ -1,6 +1,6 @@
 @import "../../../utils/scss-variables.scss";
 .headerWrap {
-  background-color: white;
+  background-color: black;
   padding: 12px 0;
   display: flex;
   position: fixed;
@@ -8,6 +8,8 @@
   left: 0;
   height: $header-height;
   width: 100%;
+  z-index: 1;
+  color: white;
 }
 .headerContainer {
   display: flex;
@@ -21,6 +23,12 @@
   justify-content: flex-start;
   gap: 24px;
   align-items: center;
+  li {
+    color: #d4b05f;
+    :hover {
+      color: gold;
+    }
+  }
   &.right-links {
     justify-content: flex-end;
   }

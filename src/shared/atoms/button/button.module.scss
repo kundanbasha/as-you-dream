@@ -1,11 +1,15 @@
 @import "../../../utils/scss-variables.scss";
 
 .button-styles {
-  background-color: $secondary-color;
+  // background-color: $secondary-color;
+  background-image: linear-gradient(to right, #b48811, #a2790d, #bb9b49);
   border: none;
   padding: 12px 24px;
   color: white;
   border-radius: 4px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  :hover {
+    background-image: linear-gradient(to right, #ad7e06, #ad7e06, #ad7e06);
+  }
 }

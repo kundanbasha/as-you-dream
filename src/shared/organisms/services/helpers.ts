@@ -1,23 +1,21 @@
 export const cards = [
   {
-    imageUrl:
-      "https://infinityhospitalitygroup.com/wp-content/uploads/2019/07/Jenna-Ben_Bell-Tower-Wedding_11-300x300.jpg",
+    imageUrl: "/wedding.jpeg",
     title: "WEDDINGS",
     description:
-      "With every last detail taken care of, we're here to ensure the day you've always dreamed of will be the day you'll never forget.",
+      "As You Dream specializes in crafting unforgettable, bespoke wedding experiences that capture your unique love story, seamlessly blending exquisite planning, enchanting design, and flawless execution to ensure your special day is nothing short of perfection.",
   },
   {
-    imageUrl:
-      "https://infinityhospitalitygroup.com/wp-content/uploads/2019/07/Arconic-Awards_Bridge-Building_12-300x300.jpg",
+    imageUrl: "/corporate-events-1.jpeg",
     title: "CORPORATE EVENTS",
     description:
-      "Wow your guests with a unique corporate experience that aligns with your company's mission and elevates your brand.",
+      "We excel in orchestrating impactful corporate events, including conferences, seminars, product launches, team-building activities, company cultural events, and festival celebrations, all tailored to your brand's unique objectives while fostering engagement and leaving a lasting impression on attendees.",
   },
   {
     imageUrl:
       "https://infinityhospitalitygroup.com/wp-content/uploads/2018/11/Hudson-Group_Bridge-Building_1-51-300x300.jpg",
     title: "SOCIAL GATHERINGS",
     description:
-      "Cocktail Table on Riverfront From a show stopping engagement celebration to an epic surprise birthday party, you dream it and we'll make it a reality.",
+      "As You Dream excels in orchestrating a wide array of memorable get-togethers, from intimate gatherings and family reunions to themed parties and special occasions, ensuring every event is tailored to your needs, and meticulously designed to engage guests and create lasting connections.",
   },
 ];

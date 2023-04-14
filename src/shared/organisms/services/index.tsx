@@ -8,7 +8,11 @@ export default function Services() {
       {cards.map((card) => (
         <div className={servicesStyles["category-card"]} key={card.title}>
           <h3>{card.title}</h3>
-          <img alt={card.title} src={card.imageUrl} />
+          <div
+            className={servicesStyles["img-bg"]}
+            style={{ backgroundImage: `url(${card.imageUrl})` }}
+          />
+          {/* <img alt={card.title} src={card.imageUrl} /> */}
           <p>{card.description}</p>
         </div>
       ))}
