@@ -1,3 +1,5 @@
+@import "../../../utils/scss-variables.scss";
+
 .footer-wrap {
   width: 100%;
   color: white;
@@ -41,4 +43,13 @@
     width: 24px;
     cursor: pointer;
   }
+}
+
+.title {
+  color: $secondary-color;
+  margin-bottom: 4px;
+}
+
+.summary {
+  line-height: 20px;
 }

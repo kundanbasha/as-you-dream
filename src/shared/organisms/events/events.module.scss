@@ -1,3 +1,5 @@
+@import "../../../utils/scss-variables.scss";
+
 .events-container {
   position: relative;
   display: flex;
@@ -24,6 +26,7 @@
     font-size: 48px;
     line-height: 72px;
     letter-spacing: 2px;
+    color: $secondary-color;
   }
   p {
     line-height: 36px;

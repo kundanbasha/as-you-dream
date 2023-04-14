@@ -18,16 +18,16 @@ export default function Footer() {
           <div className={footerStyles["grid-item"]}>
             <h4 className={footerStyles["item-title"]}>More About us</h4>
             <ul className="list">
-              <li className="text-sm">
+              <li>
                 <Link href="/events">Wedding events</Link>
               </li>
-              <li className="text-sm  mt-1">
+              <li>
                 <Link href="/events">Birthday events</Link>
               </li>
-              <li className="text-sm mt-1">
+              <li>
                 <Link href="/events">Coorporate events</Link>
               </li>
-              <li className="text-sm mt-1">
+              <li>
                 <Link href="/events">Family events</Link>
               </li>
             </ul>

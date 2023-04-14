@@ -4,10 +4,11 @@ import "react-slideshow-image/dist/styles.css";
 
 const quoteStyle: CSSProperties = {
   padding: "20px",
-  width: "50%",
-  fontSize: "28px",
+  width: "36%",
+  fontSize: "16px",
   textAlign: "center",
-  color: "black",
+  color: "white",
+  lineHeight: "24px",
 };
 
 const divStyle: CSSProperties = {
