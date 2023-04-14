@@ -43,16 +43,26 @@ export default function Footer() {
             <h4 className={footerStyles["item-title"]}>Reach out</h4>
             <ul className={footerStyles["reach-out-list"]}>
               <li>
-                <img
-                  alt="Instagram"
-                  src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/81af6121f84c41a5b4391d7d37fce12a.png"
-                />
+                <a
+                  href="https://www.instagram.com/asyouuuudream/"
+                  target="_blank"
+                >
+                  <img
+                    alt="Instagram"
+                    src="https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/81af6121f84c41a5b4391d7d37fce12a.png"
+                  />
+                </a>
               </li>
               <li>
-                <img
-                  alt="Facebook"
-                  src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png"
-                />
+                <a
+                  href="https://www.instagram.com/asyouuuudream/"
+                  target="_blank"
+                >
+                  <img
+                    alt="Facebook"
+                    src="https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_40,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/23fd2a2be53141ed810f4d3dcdcd01fa.png"
+                  />
+                </a>
               </li>
               {/* <li>
                 <img
