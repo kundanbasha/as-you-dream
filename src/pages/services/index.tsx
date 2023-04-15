@@ -1,13 +1,13 @@
 import Container from "@/shared/atoms/container";
 import { useRouter } from "next/router";
+import { servicesData } from "@/utils/data";
 import servicesStyles from "./services.module.scss";
-import { services } from "./helpers";
 import SubBanner from "@/shared/molecules/sub-banner";
 import ImageWithContent from "@/shared/molecules/imgage-with-content";
 
 export default function Services() {
   const { query }: any = useRouter();
-  const service = services[query.slug];
+  const service = servicesData[query.slug];
 
   return (
     <>
