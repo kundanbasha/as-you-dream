@@ -7,7 +7,7 @@ export default function Events() {
     <Container className={eventsStyles["events-container"]}>
       <img
         alt="events image"
-        src="https://images.squarespace-cdn.com/content/v1/585ac0bb414fb5eed215d4e3/1588203373134-GOXDZV0RJDYJRI16WMDD/Tent+Wedding+Planner+Newport+and+Cape+Cod?format=2500w"
+        src="/events-image.jpg" //"https://images.squarespace-cdn.com/content/v1/585ac0bb414fb5eed215d4e3/1588203373134-GOXDZV0RJDYJRI16WMDD/Tent+Wedding+Planner+Newport+and+Cape+Cod?format=2500w"
       />
       <div className={eventsStyles["content-card"]}>
         <h1>EVENTS</h1>
@@ -19,7 +19,7 @@ export default function Events() {
           is executed seamlessly, leaving you stress-free and able to enjoy your
           special day. Trust As You Dream to make your dreams a reality.
         </p>
-        <Button>Explore</Button>
+        {/* <Button>Explore</Button> */}
       </div>
     </Container>
   );

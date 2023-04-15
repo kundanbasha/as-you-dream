@@ -3,7 +3,6 @@ import Banner from "@/shared/organisms/banner";
 import Services from "@/shared/organisms/services";
 import Events from "@/shared/organisms/events";
 import Testimonials from "@/shared/organisms/testimonials";
-import Footer from "@/shared/organisms/footer";
 
 export default function Home() {
   return (
@@ -19,7 +18,6 @@ export default function Home() {
         <Services />
         <Events />
         <Testimonials />
-        <Footer />
       </>
     </>
   );
