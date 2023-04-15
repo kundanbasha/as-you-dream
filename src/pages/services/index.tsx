@@ -7,7 +7,7 @@ import ImageWithContent from "@/shared/molecules/imgage-with-content";
 
 export default function Services() {
   const { query }: any = useRouter();
-  const service = servicesData[query.slug];
+  const service: any = servicesData[query.slug];
 
   return (
     <>

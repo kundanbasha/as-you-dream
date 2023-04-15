@@ -1,4 +1,4 @@
-export const servicesData = {
+export const servicesData: any = {
   weddings: {
     imageUrl: "/wedding.jpeg",
     servicesImgUrl:
