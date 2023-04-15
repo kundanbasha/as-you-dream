@@ -5,7 +5,7 @@ import { cards } from "./helpers";
 
 export default function Services() {
   return (
-    <Container className={servicesStyles["services-container"]}>
+    <Container id="events" className={servicesStyles["services-container"]}>
       {cards.map((card) => (
         <div className={servicesStyles["category-card"]} key={card.title}>
           <Link href={`/services?slug=${card.slug}&service=${card.title}`}>
