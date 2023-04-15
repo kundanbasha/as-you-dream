@@ -2,6 +2,10 @@
   width: 1280px;
   margin: 0 auto;
 
+  @media screen and (max-width: 1336px) {
+    width: 1024px;
+  }
+
   @media screen and (max-width: 800px) {
     width: 720px;
   }
