@@ -48,10 +48,8 @@
   border-radius: 4px;
   ul {
     flex: 1;
-    list-style: none;
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 36px 0;
     h3 {
       font-size: 20px;
@@ -92,5 +90,10 @@
   }
   .serviceImg {
     display: none;
+  }
+  .services {
+    ul {
+      padding: 36px;
+    }
   }
 }

@@ -2,6 +2,8 @@ import Container from "@/shared/atoms/container";
 import { useRouter } from "next/router";
 import servicesStyles from "./services.module.scss";
 import { services } from "./helpers";
+import SubBanner from "@/shared/molecules/sub-banner";
+import ImageWithContent from "@/shared/molecules/imgage-with-content";
 
 export default function Services() {
   const { query }: any = useRouter();
@@ -9,23 +11,12 @@ export default function Services() {
 
   return (
     <>
-      <div className={servicesStyles.banner}>
-        <Container>
-          <h1>{service?.title}</h1>
-        </Container>
-      </div>
+      <SubBanner title={service?.title} />
       <Container>
-        <div className={servicesStyles.description}>
-          <div className={servicesStyles["description-text"]}>
-            {service?.description}
-          </div>
-          <div className={servicesStyles["description-img"]}>
-            <div
-              className={servicesStyles.categoryImg}
-              style={{ backgroundImage: `url(${service?.imageUrl})` }}
-            />
-          </div>
-        </div>
+        <ImageWithContent
+          description={service?.description}
+          imageUrl={service?.imageUrl}
+        />
 
         <div className={servicesStyles.services}>
           <div

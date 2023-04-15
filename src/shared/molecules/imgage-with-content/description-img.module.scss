@@ -1,0 +1,37 @@
+@import "../../../utils/scss-variables.scss";
+
+.description {
+  color: $text-color;
+  display: flex;
+  padding: 64px 0;
+  gap: 48px;
+  align-items: center;
+}
+.description-text {
+  flex: 1;
+  line-height: 32px;
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+}
+.description-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.categoryImg {
+  width: 400px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 480px) {
+  .description-img {
+    flex: 0;
+  }
+  .categoryImg {
+    display: none;
+  }
+}
