@@ -19,7 +19,7 @@ export default function Menu({ open, setOpen }: Props) {
         <Link href="/">Home</Link>
       </li>
       <li onClick={handleNavigation}>
-        <Link href="/events">Events</Link>
+        <Link href="/#events">Events</Link>
       </li>
       <li onClick={handleNavigation}>
         <Link href="/about">About</Link>

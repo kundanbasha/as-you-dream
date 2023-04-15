@@ -26,7 +26,7 @@ export default function Services() {
           <ul>
             <h3>Services</h3>
             {service?.services?.map((srvc: string) => (
-              <li>{srvc}</li>
+              <li key={srvc}>{srvc}</li>
             ))}
           </ul>
         </div>
