@@ -11,7 +11,9 @@ export default function ImageWithContent({ description, imageUrl }: Props) {
       {isMultiParagraph ? (
         <div style={{ display: "flex", flexDirection: "column" }}>
           {description.map((item) => (
-            <div className={aboutStyles["description-text"]}>{item}</div>
+            <div key={item} className={aboutStyles["description-text"]}>
+              {item}
+            </div>
           ))}
         </div>
       ) : (
