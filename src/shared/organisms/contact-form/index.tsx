@@ -22,7 +22,9 @@ export default function ContactForm() {
       method: "POST",
       body: data,
     }).then(() => {
-      alert("Success!");
+      alert(
+        "Success! Your request has been submitted to the As You Dream team. We appreciate your interest and will be connecting with you soon to discuss your event needs. Together, let's bring your dream event to life."
+      );
       setContactDetails({
         "Full Name": "",
         "Mobile Number": "",
