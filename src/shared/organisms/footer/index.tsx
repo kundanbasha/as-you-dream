@@ -20,16 +20,18 @@ export default function Footer() {
             <h4 className={footerStyles["item-title"]}>More About us</h4>
             <ul className="list">
               <li>
-                <Link href="/events">Wedding events</Link>
+                <Link href="/services?slug=weddings">Wedding events</Link>
               </li>
               <li>
-                <Link href="/events">Birthday events</Link>
+                <Link href="/services?slug=gatherings">Birthday events</Link>
               </li>
               <li>
-                <Link href="/events">Coorporate events</Link>
+                <Link href="/services?slug=corporate_events">
+                  Coorporate events
+                </Link>
               </li>
               <li>
-                <Link href="/events">Family events</Link>
+                <Link href="/services?slug=gatherings">Family events</Link>
               </li>
             </ul>
           </div>

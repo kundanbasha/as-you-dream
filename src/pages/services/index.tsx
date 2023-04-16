@@ -33,7 +33,6 @@ export default function Services() {
             ))}
           </ul>
         </div>
-        {/* <div className={servicesStyles.samples}>samples</div> */}
       </Container>
     </>
   );

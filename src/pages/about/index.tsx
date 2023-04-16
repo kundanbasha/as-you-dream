@@ -1,7 +1,6 @@
 import Container from "@/shared/atoms/container";
 import ImageWithContent from "@/shared/molecules/imgage-with-content";
 import SubBanner from "@/shared/molecules/sub-banner";
-import aboutStyles from "./about.module.scss";
 
 export default function About() {
   return (
@@ -9,6 +8,7 @@ export default function About() {
       <SubBanner title="About us" />
       <Container>
         <ImageWithContent
+          disableImage={true}
           description={[
             "At 'As You Dream', we believe in the power of dreams and the magic of turning them into reality. Our journey began when our founders, all passionate unofficial event planners with years of experience, realized their shared vision of creating a company that caters to every client's unique event needs. They understood the importance of personalizing every occasion and giving it a memorable touch, one that lasts a lifetime.",
 

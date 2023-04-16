@@ -30,7 +30,6 @@ export const servicesData: any = {
       "Award ceremonies",
       "Team-building activities",
       "Networking events",
-      "Venue selection and booking",
       "Audiovisual equipment and support",
       "Catering and menu planning",
       "Event branding and promotional materials",
