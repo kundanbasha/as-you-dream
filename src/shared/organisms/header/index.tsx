@@ -16,8 +16,8 @@ export default function Header() {
         <Link href="/" className={headerStyles["ayd-logo-link"]}>
           <Image
             alt="ayd logo"
-            src={"/ayd-logo-4.jpeg"}
-            width={160}
+            src={"/ayd-logo-1.jpeg"}
+            width={164}
             height={100}
           />
         </Link>

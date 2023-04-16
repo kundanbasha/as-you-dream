@@ -14,8 +14,7 @@ export const cards = [
       "We excel in orchestrating impactful corporate events, including conferences, seminars, product launches, team-building activities, company cultural events, and festival celebrations, all tailored to your brand's unique objectives while fostering engagement and leaving a lasting impression on attendees.",
   },
   {
-    imageUrl:
-      "https://infinityhospitalitygroup.com/wp-content/uploads/2018/11/Hudson-Group_Bridge-Building_1-51-300x300.jpg",
+    imageUrl: "/gatherings-home.png",
     title: "GATHERINGS",
     slug: "gatherings",
     description:

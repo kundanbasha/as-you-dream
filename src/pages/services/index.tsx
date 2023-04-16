@@ -21,7 +21,10 @@ export default function Services() {
         <div className={servicesStyles.services}>
           <div
             className={servicesStyles.serviceImg}
-            style={{ backgroundImage: `url(${service?.servicesImgUrl})` }}
+            style={{
+              backgroundImage: `url(${service?.servicesImgUrl})`,
+              backgroundPosition: service?.backgroundPosition || "inherit",
+            }}
           />
           <ul>
             <h3>Services</h3>
