@@ -23,7 +23,7 @@ As a client-centric company, we prioritize building strong relationships and mai
 At 'As You Dream', we're more than just an event management company – we're your partners in creating unforgettable memories. Our mission is to transform your dreams into reality, making every event a celebration of love, laughter, and life. We're excited to join you on this journey and look forward to helping you create the perfect event that you've always dreamt of."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/Favi.svg" />
       </Head>
       <>
         <Banner />
