@@ -45,6 +45,8 @@ export default function Footer() {
           <div className={footerStyles["grid-item"]}>
             <h4 className={footerStyles["item-title"]}>Reach out</h4>
             <ReactOut />
+            <h4 className={footerStyles["item-sub-title"]}>PHONE NUMBER</h4>
+            <p>9985315316</p>
           </div>
         </div>
         <div />

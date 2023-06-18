@@ -18,7 +18,7 @@ export default function Contact() {
           </p>
 
           <h3>Phone Number</h3>
-          <p>9876543210</p>
+          <p>9985315316</p>
           <br />
           <ReactOut />
         </div>
